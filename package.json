@@ -1,0 +1,22 @@
+{
+  "name": "caesar42",
+  "version": "1.0.0",
+  "description": "Contact Paul for any question: paul@klaq.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test task1": "jest -t getInvoiceSubtotal",
+    "test task2": "jest -t getInvoiceTaxes",
+    "test task3": "jest -t getInvoiceTotal",
+    "test task4": "jest -t getInvoicesOverdue",
+    "test task5": "jest -t getInvoicesMatchingCharacter",
+    "test task6": "jest -t getInvoicesOrderedByStatus",
+    "test task7": "jest -t getInvoices"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
